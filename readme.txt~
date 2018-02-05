@@ -1,0 +1,15 @@
+程序是通过读取图片，然后在rviz中显示：
+rosrun opencv_test cv_test
+
+另外开启窗口：
+
+rostopic echo /camera/image
+
+另外开启窗口：
+
+rosrun rviz rviz
+
+左边点击add
+选中image
+在image的topic选项中选
+/camera/image
